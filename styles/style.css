@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header {
+    height: 788px;
+    width: 1343px;
+    background: url('../assets/images/1.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text-content {
+    text-align: center;
+    color: #000000;
+}
+
+.orange-text {
+    color: #FF9148;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF9148;
+}
+
+.content-container {
+    background-color: #fafafa;
+    padding: 0rem 0rem;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 8rem auto;
+    gap: 15rem;
+    text-align: left;
+}
+
+.content-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.resources-section {
+    background: url('../assets/images/4.png') no-repeat center;
+    background-size: cover;
+    color: #020202;
+    padding: 9em 15rem;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+    text-align: left; 
+}
+
+.resources-text-content {
+    max-width: 50%;
+}
+
+.button {
+    display: inline-block;
+    background-color: #FF9148;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    background-color: #FF9148;
+    color: #ffffff;
+    padding: 1.5rem 1rem;
+    text-align: left;
+}
+
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-bottom { 
+    font-family: Arial, sans-serif; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 1rem 0; 
+    font-size: 0.7rem; 
+    background-color: #FF9148;
+    box-shadow: 0px -5px 10px rgba(190, 93, 37, 0.336);
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .content-section,
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
